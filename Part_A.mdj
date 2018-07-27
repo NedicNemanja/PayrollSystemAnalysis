@@ -1,0 +1,317 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Assl",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAFk3AhUE5/YU20=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "A1",
+					"ownedViews": [
+						{
+							"_type": "UMLActorView",
+							"_id": "AAAAAAFk3AhlVJ/diac=",
+							"_parent": {
+								"$ref": "AAAAAAFk3AhUE5/YU20="
+							},
+							"model": {
+								"$ref": "AAAAAAFk3AhlU5/bGqM="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFk3AhlVJ/ekhk=",
+									"_parent": {
+										"$ref": "AAAAAAFk3AhlVJ/diac="
+									},
+									"model": {
+										"$ref": "AAAAAAFk3AhlU5/bGqM="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFk3AhlVJ/fvL0=",
+											"_parent": {
+												"$ref": "AAAAAAFk3AhlVJ/ekhk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -32,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFk3AhlVJ/gdu8=",
+											"_parent": {
+												"$ref": "AAAAAAFk3AhlVJ/ekhk="
+											},
+											"font": "Arial;13;1",
+											"left": 45,
+											"top": 349,
+											"width": 62.7529296875,
+											"height": 13,
+											"text": "Διδάσκων"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFk3AhlVJ/h4Kc=",
+											"_parent": {
+												"$ref": "AAAAAAFk3AhlVJ/ekhk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -32,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFk3AhlVJ/iTx8=",
+											"_parent": {
+												"$ref": "AAAAAAFk3AhlVJ/ekhk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -32,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 40,
+									"top": 342,
+									"width": 72.7529296875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFk3AhlVJ/fvL0="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFk3AhlVJ/gdu8="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFk3AhlVJ/h4Kc="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFk3AhlVJ/iTx8="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFk3AhlVZ/j6jM=",
+									"_parent": {
+										"$ref": "AAAAAAFk3AhlVJ/diac="
+									},
+									"model": {
+										"$ref": "AAAAAAFk3AhlU5/bGqM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -16,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFk3AhlVZ/kmZo=",
+									"_parent": {
+										"$ref": "AAAAAAFk3AhlVJ/diac="
+									},
+									"model": {
+										"$ref": "AAAAAAFk3AhlU5/bGqM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -16,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFk3AhlVZ/lwz8=",
+									"_parent": {
+										"$ref": "AAAAAAFk3AhlVJ/diac="
+									},
+									"model": {
+										"$ref": "AAAAAAFk3AhlU5/bGqM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -16,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFk3AhlVZ/mr0s=",
+									"_parent": {
+										"$ref": "AAAAAAFk3AhlVJ/diac="
+									},
+									"model": {
+										"$ref": "AAAAAAFk3AhlU5/bGqM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -16,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 40,
+							"top": 288,
+							"width": 72.7529296875,
+							"height": 80,
+							"nameCompartment": {
+								"$ref": "AAAAAAFk3AhlVJ/ekhk="
+							},
+							"suppressAttributes": true,
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAFk3AhlVZ/j6jM="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFk3AhlVZ/kmZo="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFk3AhlVZ/lwz8="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFk3AhlVZ/mr0s="
+							}
+						},
+						{
+							"_type": "UMLUseCaseSubjectView",
+							"_id": "AAAAAAFk3GLYNaAIcqI=",
+							"_parent": {
+								"$ref": "AAAAAAFk3AhUE5/YU20="
+							},
+							"model": {
+								"$ref": "AAAAAAFk3GLYNKAG4Go="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFk3GLYNaAJgfo=",
+									"_parent": {
+										"$ref": "AAAAAAFk3GLYNaAIcqI="
+									},
+									"model": {
+										"$ref": "AAAAAAFk3GLYNKAG4Go="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFk3GLYNaAKEbQ=",
+											"_parent": {
+												"$ref": "AAAAAAFk3GLYNaAJgfo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 112,
+											"top": 464,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFk3GLYNaALQjo=",
+											"_parent": {
+												"$ref": "AAAAAAFk3GLYNaAJgfo="
+											},
+											"font": "Arial;13;1",
+											"left": 197,
+											"top": 47,
+											"width": 583,
+											"height": 13,
+											"text": "Σύστημα Μισθοδοσίας Διδακτικού Προσωπικού"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFk3GLYNaAM8hQ=",
+											"_parent": {
+												"$ref": "AAAAAAFk3GLYNaAJgfo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 112,
+											"top": 464,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFk3GLYNqANgxo=",
+											"_parent": {
+												"$ref": "AAAAAAFk3GLYNaAJgfo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 112,
+											"top": 464,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 192,
+									"top": 40,
+									"width": 593,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFk3GLYNaAKEbQ="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFk3GLYNaALQjo="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFk3GLYNaAM8hQ="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFk3GLYNqANgxo="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 192,
+							"top": 40,
+							"width": 593,
+							"height": 1081,
+							"nameCompartment": {
+								"$ref": "AAAAAAFk3GLYNaAJgfo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAFk3AhlU5/bGqM=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Διδάσκων"
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAFk3GLYNKAG4Go=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Σύστημα Μισθοδοσίας Διδακτικού Προσωπικού"
+				}
+			]
+		}
+	]
+}
