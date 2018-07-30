@@ -6,7 +6,12 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{pgfplots}
-\setlength{\droptitle}{-12em} 
+\setlength{\droptitle}{-12em}
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily,
+  mathescape
+}
 
 \title{Ανάλυση Σχεδίαση Συστημάτων Λογισμικού}
 %\vspace{-30pt}
@@ -126,7 +131,71 @@ To σύστημα εμφανίζει την αρχική σελίδα του \te
 
 \section*{Δομημένη Ανάλυση}
 
-\section*{Δομημένος Σχεδιασμός}
+\begin{center}
+\includegraphics[scale=1]{MerosB/B1}
+\end{center}
+\begin{center}
+\includegraphics[scale=1]{MerosB/B2}
+\end{center}
+\begin{center}
+\includegraphics[scale=0.8]{MerosB/B3}
+\end{center}
 
+\newpage
+\section*{Δομημένος Σχεδιασμός}
+\begin{enumerate}
+
+\item Ως κεντρικο μετασχιματισμο επιλεγουμε τον $P1$, καθως ο $P1$ δεχεται δεδομενα εισοδου και εκεινος επενεργει σε αυτα προκειμενου να δημιουργηθουν δεδομενα εξοδου.\\
+\begin{center}
+\begin{tabular}{c}
+Το Διαγραμμα Δομης ΠΡογραμματος (ΔΔΠ) ειναι:\\
+\includegraphics[scale=0.8]{MerosG/DDP.png}
+\end{tabular}
+\end{center}
+
+\newpage
+\item Τμηματα Ψευδοκωδικα:
+\begin{enumerate}[label*=\roman*]
+	\item Mονάδα ελέγχου του μετασχηματισμού Ρ1
+	
+	\begin{lstlisting}
+	$Procedure$ $ExecP1$
+		$Local$ $var$ A,B,G,E
+		$Arxikopoihse$ A,B,G,E
+		$Call$ $Get\_A(A)$
+		$Call$ $Get\_B(B)$
+		$Call$ $Calc\_P1($A,B,G,E$)$
+		$Call$ $ExecP3(E)$
+	$End\_Procedure$
+	\end{lstlisting}
+	
+	\item  Μονάδα υπολογισμού του μετασχηματισμού Ρ2
+	\begin{lstlisting}
+	$Procedure$ $Calc\_P2($D$,$Z$:IN,$G$:IN/OUT)$
+		...
+		$Upologise$ G
+		...
+	$End\_Procedure$
+	\end{lstlisting}
+	
+	\item Μονάδα παρουσίασης του μετασχηματισμού Ρ5
+	\begin{lstlisting}
+	$Procedure$ $Put\_K(K:IN)$
+		...
+		$Grapse$ K
+		...
+	$End\_Procedure$
+	\end{lstlisting}
+	
+	\item Μονάδα διαχείρισης δεδομένων του μετασχηματισμού Ρ1
+	\begin{lstlisting}
+	$Procedure$ $Get\_B(B:IN/OUT)$
+		...
+		$Diavase$ B
+		...
+	$End\_Procedure$
+	\end{lstlisting}
+\end{enumerate}
+\end{enumerate}
 
 \end{document}
